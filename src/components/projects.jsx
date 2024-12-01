@@ -39,7 +39,7 @@ const Projects = () => {
               <h6 className='mb-2 font-semibold'>
                 {project.title}
               </h6>
-              <p className='mb-4 text-neutral-400'>{project.description}</p>
+              <p className='mb-4 text-neutral-400 text-justify'>{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500">
                   {tech}
@@ -83,6 +83,31 @@ const Projects = () => {
                     View Cricket Dashboard user Interface
                   </button>
                 )}
+                {project.title === "CozyNest Backwater Homestay Website" && (
+                  <ul>
+                    <li>
+                      <button
+                        onClick={() => window.open('https://cozynestbackwaterhomestay.vercel.app/', '_blank')}
+                        className="text-green-500 hover:underline ml-4 focus:outline-none focus:ring-2 focus:ring-green-300"
+                      >
+                        View Website
+                      </button>
+                    </li>
+                  </ul>
+                )}
+                {project.title === "Role-Based Management System" && (
+                  <ul>
+                    <li>
+                      <button
+                        onClick={() => window.open('https://vr-frontend-kappa.vercel.app/', '_blank')}
+                        className="text-green-500 hover:underline ml-4 focus:outline-none focus:ring-2 focus:ring-green-300"
+                      >
+                        View Website
+                      </button>
+                    </li>
+                  </ul>
+                )}
+
               </motion.div>
             </div>
           </div>

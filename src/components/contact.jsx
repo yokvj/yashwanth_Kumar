@@ -5,7 +5,7 @@ const contact = () => {
   return (
     <div className='border-b border-neutral-900 pb-4'>
       <h2 className='my-20 text-center text-4xl'>Contact Me</h2>
-      <h2 className='my-10 text-center underline text-3xl'>E-Mail:   yashwanthcoorg123@gmail.com</h2>
+      <h2 className='my-10 text-center underline sm:text-2xl'>E-Mail:   yashwanthcoorg123@gmail.com</h2>
       <form
         action="https://formspree.io/f/mqazppwr"
         method="POST"

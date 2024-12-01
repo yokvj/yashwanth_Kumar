@@ -32,7 +32,7 @@ const project = () => {
                     {experience.company}
                 </span>
                 </h6>
-                <p  className='mb-4 text-netural-400'>
+                <p  className='mb-4 text-netural-400 text-justify'>
                 {experience.description}
                 </p>
                 {experience.technologies.map((tech, index)=>(
