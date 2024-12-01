@@ -10,7 +10,7 @@ const About = () => {
         {/* Image Container */}
         <div className='w-full lg:w-1/2 flex justify-center'>
           <img 
-            className="rounded-2xl w-3/4 h-auto" 
+            className="rounded-2xl w-3/4 h-auto"  
             src={Aboutme} 
             alt="About Me" 
           />
